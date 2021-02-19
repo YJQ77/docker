@@ -26,14 +26,14 @@ public class FileTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        String[] str = new String(b, 0, a).split("");
-//        int count = 0;
-//        for(int i = 0;i<str.length;i++){
-//            //设置查询统计的字符串为a
-//            if("a".equals(str[i])){
-//                count++;
-//            }
-//        }
-//        System.out.println(count);
+        String[] str = new String(b, 0, a).split("");
+        int count = 0;
+        for(int i = 0;i<str.length;i++){
+            //设置查询统计的字符串为a
+            if("a".equals(str[i])){
+                count++;
+            }
+        }
+        System.out.println(count);
     }
 }
